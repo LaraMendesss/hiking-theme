@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiking 🥾- My hobby </title>
+    <style>
+
+img{
+    max-width: 100%;
+}
+body{
+    background-image:url(https://www.reneeroaming.com/wp-content/uploads/2020/06/Beginner-Friendly-Hikes-in-Washington-State-Colchuck-Lake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark-button{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: auto;
+    display: block;
+    margin: 20px auto;
+    font-size: small;
+}
+
+.dark-button:hover{
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin: auto;
+    display: block;
+    margin: 20px auto;
+    font-size: small;
+}
+
+.prieto {
+    background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/10/15/09/istock-483629308.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.prieto .container{
+    background:black;
+}
+
+.prieto a {color: white;
+    }
+
+.prieto h2{
+    color: white;
+}
+.prieto h1{
+    background: black;
+}
+h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-style:solid;
+    border-radius: 10px;
+    background: rgb(11, 119, 101);
+    color: white;
+
+}
+h2{
+    text-align: center;
+    color: rgb(11, 119, 101);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    background: white;
+    border: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    color: white;
+    background-color:rgb(11, 119, 101);
+    border-radius: 10px;
+    padding:10px;
+    font-size: large;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover {
+    color: rgb(11, 119, 101);
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+    font-size: large;
+    cursor: pointer;
+}
+a{
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.first-photo{
+    border-radius: 20px;
+    transition: transform 250ms ease-in-out, filter 150ms ease-in;
+}
+
+.first-photo:hover{
+    filter:contrast(70%);
+    transform:scale(1.1);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 15px 0;
+
+}
+.grid img{
+    width: 100%;
+    border-radius: 10px;
+    aspect-ratio: 1/0.8;
+    transition: 200ms ease-in-out;
+
+}
+.grid img:hover{
+    transform:scale(1.4);
+}
+    </style>
+
+
+</head>
+<body>
+    <button class="dark-button">Dark Theme</button>
+
+    <div class="container">
+    
+    <h1>HIKING</h1>
+    <h2>How I embrace nature! 💚🥾</h2>
+    <a href="https://en.wikipedia.org/wiki/Hiking" target="_blank">
+    <img src="https://www.reneeroaming.com/wp-content/uploads/2020/06/Beginner-Friendly-Hikes-in-Washington-State-Colchuck-Lake.jpg" alt="" class="first-photo"/> </a>
+    <div class="grid">
+    <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/10/15/09/istock-483629308.jpg" alt/>
+    <img src="https://traveldudes.com/wp-content/uploads/2021/03/Machu-Picchu-guide.jpg" alt/>
+    <img src="https://pikwizard.com/pw/medium/e12447cfad3a596611418789f619bdb5.jpg" alt/>
+    <img src="https://media.istockphoto.com/id/649356542/photo/adventurous-people-making-ascent-to-high-mountain-walking-on-glacier.jpg?s=612x612&w=0&k=20&c=AfPRVWzVTEkH8WpWDIiKv0Et7zRKe0UEuM0biLwAQsw=" alt/>
+   </div>
+    <p>Hiking is a long, vigorous walk, usually on trails or footpaths in the countryside. 
+    Walking for pleasure developed in Europe during the eighteenth century.
+    In the early days it was maybe just a walk, but now a days it is a proper sport where a lot of preparation and equipment is mandatory.
+<br>
+<br>
+    Nowadays hiking can go from one walk through the park to climb the mount Everest! The sky is the limit!
+<br>
+<br>
+📖<a href="https://en.wikipedia.org/wiki/Hiking" target="_blank>">
+    <strong> Read more on Wikipedia </strong>
+</a>
+    </p>
+<br>
+<button> Start your Hiking Journey with us!</button>
+<br>
+<br>
+    <footer>Coded by <a href="https://www.linkedin.com/in/lara-chagas-mendes/" target="_blank">Lara Mendes</a> 💚</footer>
+
+</div>
+<script>
+
+function makeitdark(){
+    let bodi=document.querySelector("body");
+    bodi.classList.toggle("prieto");
+}
+
+let darkbutton = document.querySelector(".dark-button");
+darkbutton.addEventListener("click",makeitdark);
+
+
+</script>
+</body>
+</html>
